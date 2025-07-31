@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShadowPlay Rewards</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background: #1f1f1f;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 8px;
+    }
+    input {
+      background: #333;
+      color: white;
+    }
+    button {
+      background: #00c853;
+      color: white;
+      font-weight: bold;
+    }
+    .game-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .game-box {
+      background: #333;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>ShadowPlay Rewards</header>
+  <div class="container">
+    <div class="card">
+      <h2>Login</h2>
+      <input type="text" placeholder="Email or Username" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+    </div>
+
+    <div class="card">
+      <h2>Dashboard</h2>
+      <p><strong>Coins:</strong> 120</p>
+      <p><strong>UPI:</strong> mohit@upi</p>
+      <button>Withdraw ₹10</button>
+      <button>Refer & Earn</button>
+    </div>
+
+    <div class="card">
+      <h2>Play & Earn</h2>
+      <div class="game-grid">
+        <div class="game-box">🎯 Tap Game</div>
+        <div class="game-box">🧠 Puzzle</div>
+        <div class="game-box">🎲 Spin</div>
+        <div class="game-box">🪙 Lottery</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Email: support@shadowplay.com</p>
+    </div>
+  </div>
+</body>
+      </html>
